@@ -15,12 +15,14 @@ body {
 }
 
 .bb1 {
+    --building-color1: #999;
     display: flex;
     flex-direction: column; /* Arrange children vertically */
     align-items: center; /* Center children horizontally */
     width: 10%;
     height: 70%;
 }
+
 
 .bb1a {
     width: 70%;
