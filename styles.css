@@ -90,10 +90,9 @@ body {
   background-color: var(--building-color1);
 }
 
-/* CSS */
 .background-buildings {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly; /* Added */
     align-items: flex-end;
     position: absolute;
     bottom: 0;
@@ -120,4 +119,5 @@ body {
     width: 11%;
     height: 58%;
 }
+
 
