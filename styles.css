@@ -64,32 +64,6 @@ body {
   background-color: var(--building-color1);
 }
 
-
-.bb1a {
-    width: 70%;
-    height: 10%;
-    background-color: var(--building-color1);
-}
-
-
-.bb1b {
-  width: 80%;
-  height: 10%;
-  background-color: var(--building-color1);
-}
-
-.bb1c {
-  width: 90%;
-  height: 10%;
-  background-color: var(--building-color1);
-}
-
-.bb1d {
-  width: 100%;
-  height: 70%;
-  background-color: var(--building-color1);
-}
-
 .bb1 {
   width: 10%;
   height: 70%;
@@ -127,8 +101,9 @@ body {
 .bb2 {
   width: 10%;
   height: 50%;
-  background-color: var(--building-color2); /* Set background-color for .bb2 */
+  background-color: var(--building-color2, green); /* Set background-color for .bb2 with fallback value */
 }
+
 
 
 .bb3 {
