@@ -71,7 +71,8 @@ body {
   flex-direction: column;
   align-items: center;
   --building-color1: #aa80ff;
-  --building-color2: #66cc99; /* Define building-color2 here */
+  --building-color2: #66cc99;
+  --building-color3: #cc6699; /* Define building-color3 here */
 }
 
 .bb1a {
@@ -101,14 +102,13 @@ body {
 .bb2 {
   width: 10%;
   height: 50%;
-  background-color: var(--building-color2, green); /* Set background-color for .bb2 with fallback value */
+  background-color: var(--building-color2, green);
 }
 
-
-
 .bb3 {
-    width: 10%;
-    height: 55%;
+  width: 10%;
+  height: 55%;
+  background-color: var(--building-color3, pink); /* Set background-color for .bb3 with fallback value */
 }
 
 .bb4 {
