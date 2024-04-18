@@ -99,12 +99,12 @@ body {
 .bb3 {
   width: 10%;
   height: 55%;
-  background-color: var(--building-color3, pink); /* Set background-color for .bb3 with fallback value */
+  background-color: var(--building-color3, pink);
 }
-
 .bb4 {
-    width: 11%;
-    height: 58%;
+  width: 11%;
+  height: 58%;
 }
+    
 
 
