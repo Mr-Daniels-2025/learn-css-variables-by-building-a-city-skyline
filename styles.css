@@ -29,6 +29,38 @@ body {
   top: 0;
 }
 
+.building-wrap {} 
+
+/* .bb1 {
+  text-align: center;
+} */
+
+.bb2 {
+  text-align: center;
+}
+
+.bb3 {
+  text-align: center;
+}
+
+.bb4 {
+  text-align: center;
+  /* another property from .bb1 */
+  /* background-color: #f0f0f0; */
+}
+
+/* Building background styles */
+.building {
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+/* Other building styles */
+.building-wrap {
+  /* for centering sections */
+}
+
+
 /* BACKGROUND BUILDINGS - "bb" stands for "background building" */
 .bb1 {
   width: 10%;
