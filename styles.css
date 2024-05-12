@@ -29,11 +29,16 @@ body {
   top: 0;
 }
 
-.building-wrap {} 
+.building-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-/* .bb1 {
-  text-align: center;
-} */
+.bb1 {
+  /* text-align: center; */
+  /* other properties */
+}
 
 .bb2 {
   text-align: center;
@@ -56,10 +61,9 @@ body {
 }
 
 /* Other building styles */
-.building-wrap {
-  /* for centering sections */
-}
-
+/* .building-wrap {
+  // for centering sections
+} */
 
 /* BACKGROUND BUILDINGS - "bb" stands for "background building" */
 .bb1 {
