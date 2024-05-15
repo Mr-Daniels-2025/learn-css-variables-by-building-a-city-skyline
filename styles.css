@@ -20,6 +20,20 @@ body {
   overflow: hidden;
 }
 
+
+.window-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.bb4-window {
+  width: 18%;
+  height: 90%;
+  background-color: var(--window-color4);
+}
+
 .background-buildings, .foreground-buildings {
   width: 100%;
   height: 100%;
