@@ -20,20 +20,6 @@ body {
   overflow: hidden;
 }
 
-
-.window-wrap {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-.bb4-window {
-  width: 18%;
-  height: 90%;
-  background-color: var(--window-color4);
-}
-
 .background-buildings, .foreground-buildings {
   width: 100%;
   height: 100%;
@@ -50,53 +36,26 @@ body {
   align-items: center;
 }
 
-.bb1 {
-  /* text-align: center; */
-  /* other properties */
+.window-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
-
-.bb2 {
-  text-align: center;
-}
-
-.bb3 {
-  text-align: center;
-}
-
-.bb4 {
-  text-align: center;
-  /* another property from .bb1 */
-  /* background-color: #f0f0f0; */
-}
-
-/* Building background styles */
-.building {
-  padding: 20px;
-  background-color: #f0f0f0;
-}
-
-/* Other building styles */
-/* .building-wrap {
-  // for centering sections
-} */
 
 /* BACKGROUND BUILDINGS - "bb" stands for "background building" */
 .bb1 {
   width: 10%;
   height: 70%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .bb1a {
   width: 70%;
 }
-
+  
 .bb1b {
   width: 80%;
 }
-
+  
 .bb1c {
   width: 90%;
 }
@@ -105,25 +64,26 @@ body {
   width: 100%;
   height: 70%;
   background: linear-gradient(
-var(--building-color1) 50%,
-var(--window-color1)
+      var(--building-color1) 50%,
+      var(--window-color1)
     );
 }
 
 .bb1-window {
   height: 10%;
   background: linear-gradient(
-var(--building-color1),
-var(--window-color1)
+      var(--building-color1),
+      var(--window-color1)
     );
 }
+
 .bb2 {
   width: 10%;
   height: 50%;
 }
 
 .bb2a {
-  border-bottom: 5vh solid var(--building-color2);;
+  border-bottom: 5vh solid var(--building-color2);
   border-left: 5vw solid transparent;
   border-right: 5vw solid transparent;
 }
@@ -132,10 +92,10 @@ var(--window-color1)
   width: 100%;
   height: 100%;
   background: repeating-linear-gradient(
-var(--building-color2),
-var(--building-color2) 6%,
-var(--window-color2) 6%,
-var(--window-color2) 9%
+      var(--building-color2),
+      var(--building-color2) 6%,
+      var(--window-color2) 6%,
+      var(--window-color2) 9%
     );
 }
 
@@ -153,6 +113,23 @@ var(--window-color2) 9%
 .bb4 {
   width: 11%;
   height: 58%;
+}
+
+.bb4a {
+  width: 3%;
+  height: 10%;
+  background-color: var(--building-color4);
+}
+
+.bb4b {
+  width: 80%;
+  height: 5%;
+  background-color: var(--building-color4);
+}
+  
+.bb4c {
+  width: 100%;
+  height: 85%;
   background-color: var(--building-color4);
 }
 
@@ -166,25 +143,28 @@ var(--window-color2) 9%
 .fb1 {
   width: 10%;
   height: 60%;
-  background-color: var(--building-color4);
-}
-.fb1 {
-  /* styles for .fb1 */
-}
-
-.fb1a {
-  /* styles for .fb1a */
 }
 
 .fb1b {
   width: 60%;
   height: 10%;
+  background-color: var(--building-color4);
 }
 
+.fb1a {
+  width: 30%;
+  height: 60%;
+}
+
+.fb1c {
+  width: 40%;
+  height: 10%;
+}
 .fb1c {
   width: 100%;
   height: 80%;
 }
+
 .fb2 {
   width: 10%;
   height: 40%;
@@ -196,7 +176,7 @@ var(--window-color2) 9%
   height: 35%;
   background-color: var(--building-color1);
 }
-
+  
 .fb4 {
   width: 8%;
   height: 45%;
@@ -218,26 +198,4 @@ var(--window-color2) 9%
   height: 38%;
   background-color: var(--building-color3);
 }
-
-.bb4 {
-  width: 100%;
-  height: 100%;
-}
-
-.bb4a {
-  width: 3%;
-  height: 10%;
-  background-color: var(--building-color4);
-}
-
-.bb4b {
-  width: 80%;
-  height: 5%;
-  background-color: var(--building-color4);
-}
-
-.bb4c {
-  width: 100%;
-  height: 85%;
-  background-color: var(--building-color4);
-} 
+    
