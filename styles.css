@@ -144,6 +144,12 @@ body {
   width: 10%;
   height: 60%;
 }
+.fb1a {
+  position: relative;
+  border-top: 1px solid var(--building-color4);
+  border-bottom: 7vh solid var(--building-color4);
+  padding-top: 3vh; /* add some padding to make the border visible */
+}
 
 .fb1b {
   width: 60%;
