@@ -230,8 +230,11 @@ body {
   border-left: 8vw solid var(--building-color1);
 }
 .fb4a {
-  border-left: 8vw solid var(--building-color1);
+  width: 3%;
+  height: 10%;
+  background-color: var(--building-color4);
   border-top: 5vh solid transparent;
+  border-left: 8vw solid var(--building-color1);
 }
 
 .fb4b {
