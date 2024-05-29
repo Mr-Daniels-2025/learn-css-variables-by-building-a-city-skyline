@@ -144,11 +144,11 @@ body {
   width: 10%;
   height: 60%;
 }
+
 .fb1a {
-  position: relative;
+  border-bottom: 7vh solid var(--building-color4);
   border-left: 2vw solid transparent;
   border-right: 2vw solid transparent;
-  border-bottom: 7vh solid var(--building-color4);
 }
 
 .fb1b {
@@ -156,11 +156,23 @@ body {
   height: 10%;
   background-color: var(--building-color4);
 }
+  
 .fb1c {
   width: 100%;
   height: 80%;
-  background: repeating-linear-gradient(90deg, var(--building-color4), var(--building-color4) 10%, transparent 10%, transparent 15%) ,
-               repeating-linear-gradient(var(--building-color4) 0%, var(--building-color4) 10%, var(--window-color4) 10%, var(--window-color4) 90%);
+  background: repeating-linear-gradient(
+      90deg,
+      var(--building-color4),
+      var(--building-color4) 10%,
+      transparent 10%,
+      transparent 15%
+    ),
+    repeating-linear-gradient(
+      var(--building-color4),
+      var(--building-color4) 10%,
+      var(--window-color4) 10%,
+      var(--window-color4) 90%
+    );
 }
 
 .fb2 {
@@ -186,17 +198,18 @@ body {
   height: 100%;
   background-color: var(--window-color3);
 }
+
 .fb3 {
   width: 10%;
-  height: 70%;
+  height: 35%;
 }
-
+  
 .fb3a {
   width: 80%;
   height: 15%;
   background-color: var(--building-color1);
 }
-
+  
 .fb3b {
   width: 100%;
   height: 35%;
@@ -215,20 +228,6 @@ body {
   position: relative;
   left: 10%;
 }
-
-.fb4b {
-  width: 100%;
-  height: 89%;
-  background-color: var(--building-color1);
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.fb4b {
-  border-top: 5vh solid transparent;
-  border-left: 8vw solid var(--building-color1);
-}
 .fb4a {
   width: 3%;
   height: 10%;
@@ -236,19 +235,17 @@ body {
   border-top: 5vh solid transparent;
   border-left: 8vw solid var(--building-color1);
 }
-
 .fb4b {
   width: 100%;
   height: 89%;
   background-color: var(--building-color1);
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
 }
 
 .fb4-window {
-  width: calc(30% + 10%);
-  height: calc(10% + 10%);
+  width: 30%;
+  height: 10%;
   border-radius: 50%;
   background-color: var(--window-color1);
   margin: 10%;
@@ -267,3 +264,4 @@ body {
   height: 38%;
   background-color: var(--building-color3);
 }
+    
