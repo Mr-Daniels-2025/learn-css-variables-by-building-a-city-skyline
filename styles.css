@@ -13,7 +13,6 @@
   box-sizing: border-box;
 }
 
-
 body {
   height: 100vh;
   margin: 0;
@@ -43,7 +42,13 @@ body {
 }
 
 .sky {
-  background: radial-gradient(circle closest-corner at 15% 15%, #ffcf33, #ffcf33 20%, #ffff66 21%, #bbeeff 100%);
+  background: radial-gradient(
+      closest-corner circle at 15% 15%,
+      #ffcf33,
+      #ffcf33 20%,
+      #ffff66 21%,
+      #bbeeff 100%
+    );
 }
 
 /* BACKGROUND BUILDINGS - "bb" stands for "background building" */
@@ -232,13 +237,12 @@ body {
   position: relative;
   left: 10%;
 }
+
 .fb4a {
-  width: 3%;
-  height: 10%;
-  background-color: var(--building-color4);
   border-top: 5vh solid transparent;
   border-left: 8vw solid var(--building-color1);
 }
+
 .fb4b {
   width: 100%;
   height: 89%;
@@ -266,11 +270,12 @@ body {
       transparent 5%,
       transparent 10%
     ),
-    repeating-linear-gradient(90deg,
-    var(--building-color2),
-    var(--building-color2) 12%,
-    var(--window-color2) 12%,
-    var(--window-color2) 44%
+    repeating-linear-gradient(
+      90deg,
+      var(--building-color2),
+      var(--building-color2) 12%,
+      var(--window-color2) 12%,
+      var(--window-color2) 44%
     );
 }
 
@@ -290,20 +295,28 @@ body {
       var(--window-color3) 10%,
       var(--window-color3) 30%
     );
-}  
-
-.sky {
-  background: radial-gradient(circle closest-corner at 15% 15%, #ccc, #ccc 20%, #445 21%, #223 100%);
 }
 
 @media (max-width: 1000px) {
+
+:root {
+  --building-color1: #000;
+  --building-color2: #000;
+  --building-color3: #000;
+  --building-color4: #000;
+}
+
+@media (min-width: 768px) {
+  /* Other styles */
+}
   .sky {
     background: radial-gradient(
-      closest-corner circle at 15% 15%,
-      #ccc,
-      #ccc 20%,
-      #445 21%,
-      #223 100%
-    );
+        closest-corner circle at 15% 15%,
+        #ccc,
+        #ccc 20%,
+        #445 21%,
+        #223 100%
+      );
   }
 }
+  
