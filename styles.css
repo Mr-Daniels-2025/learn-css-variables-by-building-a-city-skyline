@@ -298,16 +298,15 @@ body {
 }
 
 @media (max-width: 1000px) {
-
 :root {
-  --building-color1: #000;
-  --building-color2: #000;
-  --building-color3: #000;
-  --building-color4: #000;
-}
-
-@media (min-width: 768px) {
-  /* Other styles */
+  --building-color1: #aa80ff;
+  --building-color2: #66cc99;
+  --building-color3: #cc6699;
+  --building-color4: #538cc6;
+  --window-color1: #777;
+  --window-color2: #777;
+  --window-color3: #777;
+  --window-color4: #777;
 }
   .sky {
     background: radial-gradient(
@@ -319,4 +318,4 @@ body {
       );
   }
 }
-  
+   
